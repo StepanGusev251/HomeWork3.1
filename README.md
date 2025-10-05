@@ -1,6 +1,7 @@
-# Домашняя работа 3
+# Домашняя работа 3.1
 ## Условие задачи
 Вариант 6. Команда мечты
+
 Тренер формирует стартовый состав из трех игроков с номерами A, B и C. Он считает, что это "счастливая" тройка, если сумма номеров игроков делится на три без остатка. Запишите условие для "счастливой" тройки.
 ## 1. Алгоритм и блок-схема
 
@@ -13,17 +14,16 @@
    - С - номер третьего игрока
 3. Условие:
    - (А + В + С) % 3 = 0
-4. Вычислить напряжение в параллельном соединение:
-   - R_par = (R1 * R2)/(R1 + R2)
-5. Вывести результаты расчетов:
-   - R_seq
-   - R_par
-9. **Конец**
+4. Вывод результатов:
+   - Если условие выполняется: счастливый состав
+   - Если уловие не выполняется: несчастливый состав
+
+5. **Конец**
 
 ### Блок-схема
-![Блок-схема алгоритма](Блок-схемаФизика.png)
+![Блок-схема алгоритма](Блок-схема.png)
 
-(https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=%D0%91%D0%BB%D0%BE%D0%BA-%D1%81%D1%85%D0%B5%D0%BC%D0%B0%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0.png&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%E2%80%94%201%22%20id%3D%22KzvBZ3VTc4L-15SchpKh%22%3E3Vhtc9o4EP41nmlvho6xgwkfY6DJXZO0U3pzHzvCXmxdZMuV5QD99V29GDAYjvO04XJfbGm1K8mPnt1H4PjjbHUrSJE%2B8BiY47nxyvEnjuf1r7wAX8qyNpbhaGAMiaCxddoaZvQ7WKNrrRWNoWw4Ss6ZpEXTGPE8h0g2bEQIvmy6LThrrlqQBA4Ms4iwQ%2BtfNJapsV57w639DmiS1iv3g5EZyUjtbL%2BkTEnMlzsmf%2Br4Y8G5NK1sNQamwKtxMXHvj4xuNiYgl%2BcELB%2BL4sPtn8kfrApXD%2BH8nk5%2B79lZngmr7Ac7E9cZ3ahnONXPiX4OnEnfubaHWcp1jQ%2BugUeBnXCZUgmzgkRqZIlsQFsqM4a9PjbtQiAkrI5%2BQX%2BDCxIKeAZSrNHFBvi%2BhdJyaeBaLi23J9Ov4U53TuXa2oglQ7KZeosXNixk%2FwY%2B9xC%2FA4RiJJTtciFTnvCcsOnWGgpe5TGodVzsbX3uOS8sen%2BDlGubHaSSvA1btdBpZHFfvBIRnPgiu39JRALyhJ%2FfflICGJH0ubmPnw67185aw1RXM3VYt%2FEZWjb%2FJ7h7Oa625Prr5qp%2FJldHl%2BSq34J6wHC74YLjB%2B%2FCH3yrlBiEimgUJahHGE1yx79Ra%2BQpCCo1gLWfklUqGqEa7x2HILHvl15R5aPOytDb0ZIrnOAzIj1W7w0QiKvZWXO3B%2BY9sqKgFqqJ1CGMAeOJIBk6FrhtPDsQ%2B2OftgP%2FlPELuoL6NvKzKkCtVuv6qtBSEYYtFSH4ZRXh6v9WEYIzK8KRk3qZihC0q5endStsz5mvJXyzafMVgXn9udC8yV215cL1i%2BZCW51%2B1bkwPDMXgkvmwvCoOpYFyVu1SmlCb0EyytZGqHqkKBj0ynUpITNJEjKaPz2QaKZt77WK6OThc67kSrVxRpIpqtt574A9g1JBHHsE3M7euIm6hRyeSfsMj3pud0byEl83IoOcqo9om%2Bd0bAh5glLcJXSMqs2f4Mj2T8dO8NNykhDRaeWpTCkvaNQlFoknko5g3cFcwLJL5AeS5yQmnULTDGtnh8B7wruEfSwzkq87bfWLypVOgcCqpOoUmZIjFEJuEWaaX0jKM5tKqCYxUs90SpykV6JALcyVU2d8qUumyve%2BX6zMAMNaCqKHpSKieWKrgfvOHfVrD5QouXupZbCw91gtejoUehFnjOhfgsqnEICLq8qn%2FOYkekp0XVduXBgfkczfeIOB2e9u4%2B3efdncXa1ou7qQuW%2FUFdj9Td%2BB32LZNH3HC2vL5v5riuCR%2B29TbF7gJ%2ByeaPuXF%2B2WPwJet2iPzhTt4SVFe3SAepPfNZ0%2FH57GpTnr%2FULOYnf7b64e2%2FlP3J%2F%2BAA%3D%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
+(https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=%D0%91%D0%BB%D0%BE%D0%BA-%D1%81%D1%85%D0%B5%D0%BC%D0%B0%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB.png&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%E2%80%94%201%22%20id%3D%22XM4hgy8f1sLnK_y1EKSm%22%3E7VpZk5s4EP41VO0%2BJAXCYPw42N5spZKq1E5t5XhTQAPKysgRwkd%2B%2FbZAnMYezxTjmXF4wah1dNPdX3fTxrDnq907gdfxRx4SZiAz3Bn2wkDIsjwPfhRlX1Bc1y4IkaChXlQTbukvoommpmY0JGlroeScSbpuEwOeJCSQLRoWgm%2Fby%2B44a3Nd44gcEG4DzA6pn2ko44LqoWlN%2F5vQKC45W%2B6smFnhcrF%2BkjTGId82SPbSsOeCc1ncrXZzwpTySr0U%2B%2F46MlsJJkgiz9nAP5J%2FgiyU7z98%2B5Ht6ObfDfn8Rp%2BywSzTD2wgl8F5%2Fh2HY0FqudeqcH9mSlR%2FQ4SkoKA3mNEoMewbxSOJiaBqtl6njE5FayvOJG8ucCP9e2mOC9OY3airv8yvi%2FzqGAvL8NxSHlBlIVJbzAMyagmNQOvgnDDwtzGV5HaNAzWzBXwALZYrBiOr2tk0YGkNeF6ya5C0Qd8RviJS7GGJnkUT7VwVuvR4W%2FuqVTpg3PBTT9OwhkdUHV17ENxoJ3qAQ016HKqroBAQpodcyJhHPMFsWVN9wbMkJIqNCaN6zQfO11p5P4iUex0uciOfp9qUZyIgJ%2BTX4kosIiJPrNNRTD3LSUMJwrCkm3Y0GVzr6PeFcQFdM4futLyHq6%2Fh%2FXrBbNnPDWb3lYPZPhPM1nRoNOutnzjNwaAtbJttC9tdyxWS6l0d41ViPN6e9u8ZJkaOI8fXwlGlNJSnLtSoT6GqMvVNneEW5RUyn59fHVgGIkBwMP3iZ%2F7Q%2FPdyyJ1EA69Pa3ULeQAzRhiPBF7BwjUoG%2BIiEd25T%2FXEfcn7ju5I%2Be45VDJHTivUI6cnmTs9yXz2VMncmr2IbA4qFfsvav9bpxx%2B1cflg8WuNdrr0eOrgDK731sGoAuVAU6nDJhcuAxAfW%2F9oyc0NeRdxhNmHUdwLusIpT7GgvD6OKpComhoWY33YfBr8w84HIbIn%2F%2BpygqVqExb3alTVWi6YFYXMV99z9L7U%2FQgKbnz9jXtScnuJd%2Bvy7g74u%2F6OCr8ldX6JREFYJBt6OhHWgQAnbwaLh%2F2Rk%2BsaBgWKZ2k9Bf%2Bnh%2BlMu1aJZ7c6R3fcBb6YdO6UE6l4P%2BROWdc6SThCcmracY6pAHQa3ld9HoH6J30gNd%2BMvCO3ZSr5Vg3losUikYIDwBhezZ5YRAe69%2Br5agbaUVv7Fg7rYlxq%2F0XUkVBrfJZH1UdO8uPqqrs5cFGU28Ze2VH48LEaseFiTd965zXLXOfLDR4Y2i4Vo73h4YxHDxjOHC63dHeaNBXKDxZNLD7okG3Y5qEN%2BqDs7pkaqip3Sw91vmsuqIP7XwO19puqLgv3pa0gf8Id62O5YpW7kHj8%2FCgrrN0%2Fz450kEFS%2BF9Y5kuk48KPJn1C1w7VXHioO3ZyTl9%2Bhftdee20Uev6%2BVjoefwunO%2B%2Bqm9LmA4TWlwyvEe70DW6D8HueukiWFYf1FcLK%2B%2Fy7aX%2FwM%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
 
 
 ## 2. Реализация программы
@@ -53,11 +53,8 @@
     }
 
 ## 3. Результаты работы программы
-
 Sample Input:
-  - 12
-  - 14
+  - 12 8 7
 
 Sample Output:
- - Сопротивление при последовательном соединении: 26,00 Ом
- - Сопротивление при параллельном соединении: 6,46 Ом
+ - Это счастливый состав.
